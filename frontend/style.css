@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* ----------------------css reset end-------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+
+}
+
+.first {
+    background-color: #efd592;
+}
+
+.second {
+    background-color: #4343f9;
+}
+
+.button1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #efd592;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+    background-color: #242d38;
+}
+
+.button2 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    height: 60px;
+    border: 6px solid #242d38;
+    text-transform: uppercase;
+    color: #242d38;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.2em;
+}
+
+.button3 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 60px;
+    background-color: #4343f9;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    font-size: 21px;
+    color: #ffffff;
+}
